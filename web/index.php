@@ -8,7 +8,7 @@
 require __DIR__ . '/../app/Loader.php';
 
 // создаем экземпляр класса автозагрузчика
-$loader = new \app\Loader();
+$loader = new \app\Loader(); 
 
 // добавляем соответствующие нэймспэйсу директории
 $loader->addNamespace('app', realpath(__DIR__ . '/../app'));
